@@ -7,7 +7,10 @@
 </head>
 <body>
   <header>
-    <h1>Leena's Quantifyte</h1>
+    <div style="display: flex; align-items: center; gap: 10px;">
+      <img src="logo.png" alt="Leena's Quantifyte" style="height: 50px;">
+      <h1 style="margin: 0; font-size: 28px;">Leena's Quantifyte</h1>
+    </div>
     <nav>
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
@@ -21,6 +24,7 @@
   <section class="hero">
     <h2>Contact Us</h2>
     <form action="https://formsubmit.co/leenaneel18@gmail.com" method="POST" class="contact-form">
+      <input type="hidden" name="_next" value="https://leena-18-aneel.github.io/thankyou.html">
       <input type="text" name="name" placeholder="Name" required>
       <input type="email" name="email" placeholder="mail" required>
       <textarea name="message" placeholder="Hi there! Leena here...." rows="6" required></textarea>
